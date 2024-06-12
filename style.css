@@ -1,19 +1,19 @@
 h1{
     background-color: rgba(197, 178, 92, 0.76);
-    padding: 1rem;
-    margin:3rem;
+    padding: 1%;
+    margin:3%;
 }
 p{
-    font-size: 20px;
+    font-size: 130%;
     background-color: rgba(197, 178, 92, 0.76);
-    padding: 1rem;
+    padding: 1%;
 }
 img{
     width: 30%;
     margin:auto;
 }
 figure{
-    margin-left: 3rem;
+    margin-left: 3%;
 }
 nav{
     text-align: center;
@@ -24,7 +24,7 @@ h2{
 }
 ul{
     font-size: 150%;
-    padding-left: 6rem;
+    padding-left: 6%;
 }
 figcaption{
     font-size: 150%;
@@ -37,20 +37,25 @@ body{
 }
 table{
     font-size: 150%;
-    margin-left:3rem;
+    margin-left:3%;
+    border-style:solid;
+    border-color:rgb(145, 69, 18);
+}
+th, td{
+    border-style:solid;
+    border-color:rgb(145, 69, 18);
 }
 h1, article, h2{
-    padding-right: 20rem;
-    padding-left: 3rem;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 ol{
-    margin-left:3rem;
+    margin-left:3%;
     font-size: 120%;
 }
 iframe{
-    margin-left:3rem;
-    size: 8%;
+    margin-left:3%;
 }
 code{
-    font-size:110%;
+    font-size:130%;
 }
