@@ -1,18 +1,19 @@
-article{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgba(197, 178, 92, 0.76)
+    background-color: rgba(197, 178, 92, 0.76);
+    padding: 1rem;
+    margin:3rem;
 }
 p{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    background-color: rgba(197, 178, 92, 0.76)
+    background-color: rgba(197, 178, 92, 0.76);
+    padding: 1rem;
 }
 img{
     width: 30%;
     margin:auto;
+}
+figure{
+    margin-left: 3rem;
 }
 nav{
     text-align: center;
@@ -23,10 +24,32 @@ h2{
 }
 ul{
     font-size: 150%;
+    padding-left: 6rem;
 }
 figcaption{
     font-size: 150%;
 }
 body{
-    background-color: rgba(224, 199, 145, 0.719);
+    font-family: "Kavivanar", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #e0c791b7;
+}
+table{
+    font-size: 150%;
+    margin-left:3rem;
+}
+h1, article, h2{
+    padding-right: 20rem;
+    padding-left: 3rem;
+}
+ol{
+    margin-left:3rem;
+    font-size: 120%;
+}
+iframe{
+    margin-left:3rem;
+}
+code{
+    font-size:110%;
 }

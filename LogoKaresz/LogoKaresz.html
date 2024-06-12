@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólió - Antal Cintia - Logika</title>
+    <title>Portfólió - Antal Cintia - LogoKaresz</title>
     <link rel="stylesheet" href="./../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,27 +13,44 @@
     <nav>
         <a href="./../index.html">Főoldal</a>
         |
-        <a href="./../LogoKaresz/LogoKaresz.html">Logo Karesz</a>
+        <a>Logo Karesz</a>
         |
         <a href="./../Karesz/Karesz.html">Karesz</a>
         |
-        <a>Logika</a>
+        <a href="./../Logika/Logika.html">Logika</a>
         |
         <a href="./../Prog_tételek/Prog_tételek.html">Programozási tételek</a>
         |
         <a href="./../Web/Web.html">Web</a>
     </nav>
-    <h1>Logika</h1>
-    <h2>Igazságtáblázatok</h2>
+    <h1>Logo Karesz</h1>
+    
     <figure>
-        <img src="Igazságtáblázat_kép.png">
+        <img src= "LogoKaresz_mozaikcsillag_kép.png">
+        <figcaption>Így nézett ki egy Logo Kareszes feladat, ez például a mozaikcsillag
+        </figcaption>
+    </figure>
+    
+    <pre>
+        <code>
+            void Mozaik(int sordb, int oszlopdb, double a, double fok){
+                for (int i = 0; i < sordb; i++){
+                    Sor(oszlopdb, a, fok, i)
+    	            Tollat(fel);
+		    Előre(a);
+                    Tollat(le);
+                }
+		Hátra(a * sordb);
+	    }
+        </code>
+    </pre>
+    <figure>
+        <img src="LogoKaresz_sakktabla_kép.png">
+        <figcaption>Ez egy másik órai feladat volt</figcaption>
     </figure>
 
 
-    <h2>Analitikus fák</h2>
-    <figure>
-        <img src="Analitikus_fa_kép.png">
-    </figure>
+
 
 </body>
 </html>
