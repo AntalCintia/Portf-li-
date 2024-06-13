@@ -15,12 +15,18 @@ img{
 figure{
     margin-left: 3%;
 }
+img{
+    width: 40%;
+}
 nav{
     text-align: center;
     font-size: 200%;
 }
 h2{
     font-size: 200%;
+}
+h3{
+    font-size:150%;
 }
 ul{
     font-size: 150%;
@@ -33,7 +39,7 @@ body{
     font-family: "Kavivanar", cursive;
     font-weight: 400;
     font-style: normal;
-    background-color: rgba(224, 199, 145, 0.718);
+    background-color:#ceba4c86;/*rgba(224, 199, 145, 0.718);*/
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -41,13 +47,18 @@ table{
     font-size: 150%;
     margin-left:3%;
     border-style:solid;
-    border-color:#3d1f0ac2;
+    border-color:#4d260d;
+    
 }
 th, td{
     border-style:solid;
-    border-color:#3d1f0ac2;
+    border-color:#4d260d;
+    background-color: rgba(76, 219, 219, 0.61);
 }
-h1, article, h2{
+th{
+    background-color: rgb(36, 165, 165);
+}
+h1, article, h2, h3{
     padding-right: 3%;
     padding-left: 3%;
 }
@@ -60,4 +71,5 @@ iframe{
 }
 code{
     font-size:130%;
+    width:50%;
 }

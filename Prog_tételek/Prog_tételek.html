@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Poetsen+One&family=Purple+Purse&family=Spicy+Rice&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
     <nav>
         <a href="./../index.html">Főoldal</a>
         |
@@ -23,6 +24,8 @@
         |
         <a href="./../Web/Web.html">Web</a>
     </nav>
+</header>
+<main>
     <h1>Programozási tételek</h1>
 
     <h2>Mester-es feladatok</h2>
@@ -37,16 +40,28 @@
 
 
     <h2>3000-es feladatok</h2>
+    <h3>Egy maximumkeresés függvény a 3000A feladatból</h3>
 
     <pre>
         <code>
-
+            static int Legnagyobb(List<int> lista)
+                {
+                    int best = lista[0];
+                    for (int i = 1; i < lista.Count; i++)
+                    {
+                        if (best < lista[i])
+                        {
+                            best = lista[i];
+                        }
+                    }
+                    return best;
+                }
         </code>
     </pre>
 
     <article>
         <p>
-            Év végére megkaptuk a 3000-es feladatok hosszú sorát. Az elején leginkább 10 kérdésből álltak a feladatok, de később már olyan is volt, hogy 40 vagy 90 kérdés volt a feladatban. Persze nem mindegyik kérdéshez kellett egy külön függvényt írnunk. Volt, hogy egy függvényt 5-10 kérdéshez is fel lehetett használni.
+            Év végére megkaptuk a 3000-es feladatok hosszú sorát. Az elején leginkább 10 kérdésből álltak a feladatok, de később már olyan is volt, hogy 40 vagy 90 kérdés volt a feladatban. Persze nem mindegyikhez kellett egy külön függvényt írnunk. Volt, hogy egy függvényt 5-10 kérdéshez is fel lehetett használni.
         </p>
     </article>
 
@@ -56,10 +71,22 @@
             Pszeudo-kóddal leginkább papíron szoktunk foglalkoztunk. Itt nem feltétlenül az a lényeg, hogy pontosan ugyanazokat a szavakat használd a kódodban, amiket tanultál, hanem hogy érthetően leírd, hogy mit szeretnél programozni.
         </p>
     </article>
+    <h3>Papíros dolgozatok</h3>
+    <article>
+        <p>
+            Pszeudo-kódban papíron írtunk dolgozatokat többnyire a 3000-es feladatok alapján.
+        </p>
+    </article>
+</main>
 
-
-
-
+<footer>
+    <article>
+        <p>
+            Az elérhetőségem:
+            <a href="mailto:antal.cintia.23f@szlgbp.hu">antal.cintia.23f@szlgbp.hu</a>
+        </p>
+    </article>
+</footer>
 
 
 </body>
