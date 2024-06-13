@@ -16,7 +16,7 @@ figure{
     margin-left: 3%;
 }
 img{
-    width: 40%;
+    width: 45%;
 }
 nav{
     text-align: center;
@@ -39,7 +39,7 @@ body{
     font-family: "Kavivanar", cursive;
     font-weight: 400;
     font-style: normal;
-    background-color:#ceba4c86;/*rgba(224, 199, 145, 0.718);*/
+    background-color:#ceba4c86;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -69,6 +69,7 @@ ol{
 }
 iframe{
     margin-left:3%;
+    width:50%;
 }
 code{
     font-size:130%;
