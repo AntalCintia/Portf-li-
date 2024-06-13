@@ -46,6 +46,7 @@ body{
 table{
     font-size: 150%;
     margin-left:3%;
+    margin-right:3%;
     border-style:solid;
     border-color:#4d260d;
     
@@ -72,4 +73,7 @@ iframe{
 code{
     font-size:130%;
     width:50%;
+}
+video{
+    max-width: 80%;
 }
